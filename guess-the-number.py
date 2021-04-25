@@ -4,8 +4,9 @@ s = int(s)
 b = int(b)
 import random
 num = random.randint(s,b)
-count =0
+count =1
 while True:
+	print ('這是第' , count, '次')
 	g = input('請輸入你猜的數字 : ')
 	g = int(g)
 	count +=1
@@ -16,6 +17,6 @@ while True:
 		print ('比你猜的數字大')
 	elif g > num :
 		print ('比你猜的數字小')
-	print ('這是第' , count, '次')
+	
 
 
